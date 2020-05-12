@@ -1,0 +1,38 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,42,75,1) 53%, rgba(32,32,34,1) 100%);
+    /* background-image: url('https://www.desktopbackground.org/p/2012/06/19/408256_nasa-wallpapers-page-3-pics-about-space_1600x1200_h.jpg'); */
+    background-size: auto 100vh;
+    color: #ffebcd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+}
+
+.menu {
+    background-color: transparent;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: burlywood;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    text-align: center;
+}
